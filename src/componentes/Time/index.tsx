@@ -9,7 +9,9 @@ interface timeProps {
     colaboradores: IColaborador[]
 }
 
-const Time = ({corPrimaria, corSecundaria , nome, colaboradores}: timeProps) => {
+
+const Time = ({corPrimaria, corSecundaria, nome ,colaboradores}: timeProps) => {
+
     const css = { backgroundColor: corSecundaria }
 
     return (
