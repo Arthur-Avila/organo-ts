@@ -6,7 +6,7 @@ interface BannerProps {
     fonteAlternativa: string
 }
 
-export const Banner = ({fonteAlternativa, fonteImagem}: BannerProps) => {
+const Banner = ({fonteAlternativa, fonteImagem}: BannerProps) => {
     // JSX
     return (
         <header className="banner">
